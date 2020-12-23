@@ -1,0 +1,50 @@
+*{
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+    
+  body{
+    background:#000000;
+    margin: 0;
+  }
+  h1{
+    font-size: 36px;
+    margin: 0;
+  }
+    
+  #wrapper{
+    width: 950px;
+    margin: auto;
+    background-color:rgba(148, 135, 135, 0.8);
+    border-radius: 50px;
+  }
+  #header{
+    height: auto;
+    background: transparent;
+    margin-top: 12%;
+  }
+
+  #navbar{
+    float: left;
+    background: transparent;
+  }
+
+  #navbar li{
+    float: left;
+    list-style: none;
+  }
+
+  #navbar li a{
+    color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #navbar ul{
+    width: -moz-fit-content;
+    position: fixed;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+
+  }
